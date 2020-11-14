@@ -1,0 +1,44 @@
+#navigation-container{
+    padding: 0;
+    .container{
+        padding: 0;
+    }
+    @include media-breakpoint-up(md){
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+#navigation{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #fff !important;
+    color: #041D38;
+    z-index: 500;
+
+    a{
+        transition: 0.3s
+    }
+
+    .navbar-text a:hover{
+        color: #fff;
+    }
+    .nav-link:hover{
+        color: $red;
+    }
+    .navbar-toggler {
+        color: $navbar-light-color;
+    } 
+    .navbar-toggler-icon {
+        background-image: escape-svg($navbar-light-toggler-icon-bg);
+    }
+    @include media-breakpoint-up(md){
+        width: calc(100% - 30px);
+    }
+}
+.brand{
+    width: auto;
+    height: 6rem
+}

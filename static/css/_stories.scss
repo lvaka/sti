@@ -1,0 +1,86 @@
+#stories{
+    overflow-x: hidden;
+    padding: 6rem 0 12rem;
+    position: relative;
+
+    .sub-header{
+        color: $red;
+        position: relative;
+        font-size: 1.2rem;
+        display: inline-block;
+        &::before{
+            content: '';
+            height: 4px;
+            width: 10px;
+            background: $red;
+            position: absolute;
+            top: 0.6rem;
+            left: -2.4rem;
+            height: 4px;
+            width: 2rem;
+        }
+        &::after{
+            content: '';
+            height: 4px;
+            width: 10px;
+            background: $red;
+            position: absolute;
+            top: 0.6rem;
+            right: -2.4rem;
+            height: 4px;
+            width: 2rem;
+        }
+    }
+    .blog-card {
+        background: #fff;
+        margin-top: 2rem;
+        .blog-card-date {
+            padding: .25rem 0;
+            background: #585958;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.5;
+            .fa-calendar-alt{
+                color: $red;
+                font-size: 1rem;
+                margin: 0 1rem;
+            }
+        }
+        .description{
+            padding: 1rem;
+        }
+    }
+    .triangle-upper-right{
+        z-index: 1;
+        background: $red;
+        width: 60%;
+        padding-top: 30%;
+        position:absolute;
+        top: 0;
+        right: 0;
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+        @include media-breakpoint-up(md){
+            width: 30%;
+            padding-top: 15%;
+        }
+    }
+    .triangle-bottom-left{
+        z-index: 1;
+        background: $red;
+        width: 240%;
+        padding-top: 120%;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        clip-path: polygon(0 0, 0 100%, 100% 100%);
+        @include media-breakpoint-up(md){
+            width: 60%;
+            padding-top: 20%;
+        }
+    }
+    .container{
+        position: relative;
+        z-index: 3;
+    }
+}

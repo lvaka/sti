@@ -1,0 +1,34 @@
+#team{
+    background: rgb(101, 101, 101);
+    background-size: cover;
+    padding-top: 150%;
+    position: relative;
+    .team-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .play-btn{
+        width: 8rem;
+        height: auto;
+    }
+    h1{
+        color: #fff;
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    h5{
+        margin-top: 2rem;
+        color: #fff;
+        font-weight: bold;
+    }
+    @include media-breakpoint-up(md) {
+        padding-top: 39.375%;
+    }
+}

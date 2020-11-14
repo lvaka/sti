@@ -1,0 +1,16 @@
+@import 'fonts';
+@import 'variables';
+@import './bootstrap/bootstrap';
+@import 'navigation';
+@import 'buttons';
+@import 'elements';
+@import 'header';
+@import 'details';
+@import 'team';
+@import 'partners';
+@import 'stories';
+@import 'footer';
+
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}

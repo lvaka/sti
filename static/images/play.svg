@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 172 172" style="enable-background:new 0 0 172 172;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EE0021;stroke-miterlimit:10;}
+	.st1{fill:#EB0A1E;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#FFFFFF;}
+</style>
+<g id="Play_Button" transform="translate(-874 -2076)">
+	<g id="bg" transform="translate(874 2076)">
+		<circle class="st0" cx="86" cy="86" r="85.5"/>
+	</g>
+	<circle id="bg-2" class="st1" cx="960.5" cy="2162.5" r="70"/>
+	<g class="st2">
+		<path class="st3" d="M968,2163.8l-13.8,8.1c-1.2,0.7-2.8-0.1-2.8-1.6V2154c0-1.6,1.7-2.3,2.8-1.6l13.8,8.1
+			C969.3,2161.3,969.3,2163.1,968,2163.8z"/>
+	</g>
+</g>
+</svg>

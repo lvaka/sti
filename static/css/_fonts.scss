@@ -1,0 +1,67 @@
+@font-face{ 
+    font-family: Toyota;
+    font-weight: 100;
+    src: url("../fonts/ToyotaType-Light.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: 100;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-LightIt.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: lighter;
+    src: url("../fonts/ToyotaType-Book.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: lighter;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-BookIt.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: normal;
+    src: url("../fonts/ToyotaType-Regular.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-Italic.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: bolder;
+    src: url("../fonts/ToyotaType-Semibold.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: bolder;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-SemiboldIt.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: bold;
+    src: url("../fonts/ToyotaType-Bold.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: bold;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-BoldIt.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: 900;
+    src: url("../fonts/ToyotaType-Black.ttf") format("truetype");
+}
+@font-face{ 
+    font-family: Toyota;
+    font-weight: 900;
+    font-style: italic;
+    src: url("../fonts/ToyotaType-BlackIt.ttf") format("truetype");
+}
+$font-family-sans-serif: Toyota;

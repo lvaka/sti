@@ -1,0 +1,85 @@
+.btn{
+    text-transform: uppercase;
+    border-radius: 0;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background: #fff;
+    position: relative;
+    border: 2px solid $dark;
+    padding: 1rem 2rem;
+    color: $dark;
+    &::before{
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid $red;
+        border-right: 2px solid $red;
+        position: absolute;
+        top: 0.4rem;
+        right: 0.4rem;
+    }
+    &:hover, &:active{
+        border-color: $red;
+        background: $red;
+        color: #fff;
+        &::before{
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+    }
+}
+
+.btn-box{
+    list-style: none;
+    padding: 0;
+
+    li{
+        padding: 0.5rem 0;
+        .btn-primary{
+            width: 100%;
+            display: block;
+            background: #fff;
+            &:hover, &:active{
+                border-color: $red;
+                background: $red;
+                color: #fff;
+                &::before{
+                    border-top: 2px solid #fff;
+                    border-right: 2px solid #fff;
+                }
+            }
+        }
+
+        &:first-child{
+            padding-top: 0;
+        }
+    }
+
+    @include media-breakpoint-up(md){
+        display: flex;
+        li{
+            padding: 0 1rem;
+            .btn-primary{
+                display: inline-block;
+                background: #fff;
+                width: initial;
+
+                &:hover, &:active{
+                    border-color: $red;
+                    background: $red;
+                    color: #fff;
+                    &::before{
+                        border-top: 2px solid #fff;
+                        border-right: 2px solid #fff;
+                    }
+                }
+            }
+            &:first-child{
+                padding-left: 0;
+            }
+        }
+    }
+}
